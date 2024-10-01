@@ -10,7 +10,7 @@ body{
    border: 0px solid black;
    width: 650px;
    margin: auto;
-   margin-bottom: 25px;
+   margin-bottom: px;
    background-color: rgb(253, 164, 136);
 }
 
@@ -48,7 +48,7 @@ input{
 }
 
 button{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 30px; 
     width: 91%;
     padding-top:6px;
@@ -60,4 +60,14 @@ button{
 
 button:hover{
     background-color: rgb(253, 164, 136);
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+
+    form{
+        padding-left: 25px;
+    }
 }
